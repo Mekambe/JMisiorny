@@ -31,8 +31,18 @@ public class WzorHerona {
 		         double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
 
 		         
+			        if (a +b < c) {
+			        	 
+			        	 System.out.println("It is not a triangle");
+						
+					}
+		         
+		       
+			        else {
 		
 		        System.out.print("Field is  " + area);
+		
+			        }
 		
 		         
 		
